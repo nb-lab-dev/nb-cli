@@ -1,7 +1,7 @@
 const { DEFAULT_NETWORK } = require('../../config');
 const connect = require('../../utils/connect');
 const inspectResponse = require('../../utils/inspect-response');
-const { utils } = require('near-api-js');
+const { utils } = require('pex-api-js');
 
 module.exports = {
     command: 'state <accountId>',
