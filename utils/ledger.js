@@ -7,7 +7,7 @@ object points to the Ledger.
 */
 const { exit } = require('process');
 const { createClient } = require('near-ledger-js');
-const { utils: { PublicKey, key_pair: { KeyType } } } = require('near-api-js');
+const { utils: { PublicKey, key_pair: { KeyType } } } = require('pex-api-js');
 const { default: TransportNodeHid } = require('@ledgerhq/hw-transport-node-hid');
 
 let client;
