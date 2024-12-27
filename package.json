@@ -1,6 +1,6 @@
 {
   "name": "pex-cli",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "Simple CLI for interacting with Pex Protocol",
   "engines": {
     "node": ">= 16"
@@ -13,18 +13,18 @@
     "test:integration": "bash ./test/index.sh",
     "lint": "eslint .",
     "fix": "eslint . --fix",
-    "start": "node bin/near-cli.js"
+    "start": "node bin/pex-cli.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/near/near-cli.git"
+    "url": "git+https://github.com/pex/pex-cli.git"
   },
-  "author": "Jane Degtiareva",
+  "author": "Ja",
   "license": "(MIT AND Apache-2.0)",
   "bugs": {
-    "url": "https://github.com/near/near-cli/issues"
+    "url": "https://github.com/pex/pex-cli/issues"
   },
-  "homepage": "https://github.com/near/near-cli#readme",
+  "homepage": "https://github.com/pex/pex-cli#readme",
   "bin": {
     "near": "bin/pex"
   },
