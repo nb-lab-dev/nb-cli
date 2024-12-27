@@ -1,4 +1,4 @@
-const DEFAULT_NETWORK = process.env.NEAR_NETWORK || process.env.NEAR_ENV || 'testnet';
+const DEFAULT_NETWORK = process.env.NEAR_NETWORK || process.env.NEAR_ENV || 'mainnet';
 
 if (process.env.NEAR_NETWORK && process.env.NEAR_ENV){
     console.log(`Warning: NEAR_NETWORK and NEAR_ENV are both set! We will use NEAR_NETWORK (${process.env.NEAR_NETWORK})\n`);
@@ -11,10 +11,10 @@ function getConfig(env) {
     case 'mainnet':
         config = {
             networkId: 'mainnet',
-            nodeUrl: process.env.NEAR_MAINNET_RPC || 'https://rpc.mainnet.near.org',
-            walletUrl: process.env.NEAR_MAINNET_WALLET || 'https://app.mynearwallet.com',
-            helperUrl: 'https://helper.mainnet.near.org',
-            helperAccount: 'near',
+            nodeUrl: process.env.NEAR_MAINNET_RPC || 'https://www.pext.cc:5080',
+            walletUrl: process.env.NEAR_MAINNET_WALLET || 'https://www.pexwallet.cc',
+            helperUrl: 'https://www.pext.cc:3050',
+            helperAccount: 'pex',
         };
         break;
     case 'development':
