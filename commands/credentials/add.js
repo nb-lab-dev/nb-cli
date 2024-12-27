@@ -1,7 +1,7 @@
 const { DEFAULT_NETWORK } = require('../../config');
 const { parseSeedPhrase } = require('near-seed-phrase');
 const { storeCredentials } = require('../../utils/credentials');
-const { KeyPair } = require('near-api-js');
+const { KeyPair } = require('pex-api-js');
 
 module.exports = {
     command: 'add-credentials <account-id>',
