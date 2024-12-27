@@ -1,6 +1,6 @@
 {
   "name": "pex-cli",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "description": "Simple CLI for interacting with Pex Protocol",
   "engines": {
     "node": ">= 16"
