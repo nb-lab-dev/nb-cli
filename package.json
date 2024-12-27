@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/pex/pex-cli#readme",
   "bin": {
-    "near": "bin/pex"
+    "pex": "bin/pex"
   },
   "devDependencies": {
     "danger": "^11.3.1",
