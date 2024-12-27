@@ -1,4 +1,4 @@
-const { connect: nearConnect } = require('near-api-js');
+const { connect: nearConnect } = require('pex-api-js');
 const { getConfig } = require('../config');
 const { getPublicKeyForPath, signForPath } = require('./ledger');
 const chalk = require('chalk');
