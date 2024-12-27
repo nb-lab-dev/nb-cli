@@ -1,7 +1,7 @@
 {
-  "name": "near-cli",
+  "name": "pex-cli",
   "version": "4.0.13",
-  "description": "Simple CLI for interacting with NEAR Protocol",
+  "description": "Simple CLI for interacting with Pex Protocol",
   "engines": {
     "node": ">= 16"
   },
@@ -42,7 +42,7 @@
     "chalk": "^4.1.2",
     "flagged-respawn": "^2.0.0",
     "is-ci": "^3.0.1",
-    "near-api-js": "^3.0.2",
+    "pex-api-js": "^5.0.0",
     "near-ledger-js": "^0.2.1",
     "near-seed-phrase": "^0.2.0",
     "open": "^8.4.2",
