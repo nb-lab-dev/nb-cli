@@ -1,6 +1,6 @@
 {
   "name": "nbb-cli",
-  "version": "5.0.5",
+  "version": "5.0.6",
   "description": "Simple CLI for interacting with NB Protocol",
   "engines": {
     "node": ">= 16"
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/nb/nb-cli#readme",
   "bin": {
-    "pex": "bin/nb"
+    "nb": "bin/nb"
   },
   "devDependencies": {
     "danger": "^11.3.1",
