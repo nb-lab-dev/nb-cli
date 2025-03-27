@@ -42,7 +42,7 @@
     "chalk": "^4.1.2",
     "flagged-respawn": "^2.0.0",
     "is-ci": "^3.0.1",
-    "pex-api-js": "^5.0.0",
+    "nb-api-js": "^5.0.0",
     "near-ledger-js": "^0.2.1",
     "near-seed-phrase": "^0.2.0",
     "open": "^8.4.2",
