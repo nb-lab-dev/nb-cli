@@ -3,7 +3,7 @@ const chalk = require('chalk');
 
 yargs // eslint-disable-line
     .strict()
-    .scriptName('pex')
+    .scriptName('nb')
     .middleware(require('../utils/check-version'))
     .middleware(require('../middleware/key-store'))
     .middleware(require('../middleware/retro-ledger'))
