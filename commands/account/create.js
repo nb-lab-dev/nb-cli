@@ -1,6 +1,6 @@
 
 const connect = require('../../utils/connect');
-const { KeyPair, utils, DEFAULT_FUNCTION_CALL_GAS } = require('pex-api-js');
+const { KeyPair, utils, DEFAULT_FUNCTION_CALL_GAS } = require('nb-api-js');
 const inspectResponse = require('../../utils/inspect-response');
 const { assertCredentials, storeCredentials } = require('../../utils/credentials');
 const { DEFAULT_NETWORK } = require('../../config');
