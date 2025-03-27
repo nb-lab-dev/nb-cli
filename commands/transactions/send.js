@@ -2,7 +2,7 @@ const chalk = require('chalk');
 const connect = require('../../utils/connect');
 const inspectResponse = require('../../utils/inspect-response');
 const { assertCredentials } = require('../../utils/credentials');
-const { utils } = require('pex-api-js');
+const { utils } = require('nb-api-js');
 const { DEFAULT_NETWORK } = require('../../config');
 
 module.exports = {
