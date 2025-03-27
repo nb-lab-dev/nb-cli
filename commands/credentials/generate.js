@@ -2,7 +2,7 @@ const { decode } = require('bs58');
 const { generateSeedPhrase, parseSeedPhrase } = require('near-seed-phrase');
 const { DEFAULT_NETWORK } = require('../../config');
 const { storeCredentials } = require('../../utils/credentials');
-const { KeyPair } = require('pex-api-js');
+const { KeyPair } = require('nb-api-js');
 
 module.exports = {
     command: 'generate-key [account-id]',
