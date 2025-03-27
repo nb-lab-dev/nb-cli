@@ -1,11 +1,11 @@
 {
-  "name": "pex-cli",
+  "name": "nb-cli",
   "version": "5.0.5",
-  "description": "Simple CLI for interacting with Pex Protocol",
+  "description": "Simple CLI for interacting with NB Protocol",
   "engines": {
     "node": ">= 16"
   },
-  "main": "bin/pex-cli.js",
+  "main": "bin/nb-cli.js",
   "scripts": {
     "pretest": "rm -rf tmp-project",
     "test": "npm run test:unit && npm run test:integration",
@@ -13,20 +13,20 @@
     "test:integration": "bash ./test/index.sh",
     "lint": "eslint .",
     "fix": "eslint . --fix",
-    "start": "node bin/pex-cli.js"
+    "start": "node bin/nb-cli.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pex/pex-cli.git"
+    "url": "git+https://github.com/nb/nb-cli.git"
   },
   "author": "Ja",
   "license": "(MIT AND Apache-2.0)",
   "bugs": {
-    "url": "https://github.com/pex/pex-cli/issues"
+    "url": "https://github.com/nb/nb-cli/issues"
   },
-  "homepage": "https://github.com/pex/pex-cli#readme",
+  "homepage": "https://github.com/nb/nb-cli#readme",
   "bin": {
-    "pex": "bin/pex"
+    "pex": "bin/nb"
   },
   "devDependencies": {
     "danger": "^11.3.1",
