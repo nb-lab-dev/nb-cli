@@ -1,4 +1,4 @@
-const { DEFAULT_FUNCTION_CALL_GAS, providers, utils } = require('pex-api-js');
+const { DEFAULT_FUNCTION_CALL_GAS, providers, utils } = require('nb-api-js');
 const connect = require('../../utils/connect');
 const inspectResponse = require('../../utils/inspect-response');
 const { assertCredentials } = require('../../utils/credentials');
