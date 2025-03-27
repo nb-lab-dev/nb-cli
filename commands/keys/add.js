@@ -1,4 +1,4 @@
-const { utils } = require('pex-api-js');
+const { utils } = require('nb-api-js');
 const connect = require('../../utils/connect');
 const { DEFAULT_NETWORK } = require('../../config');
 const inspectResponse = require('../../utils/inspect-response');
