@@ -3,7 +3,7 @@ const homedir = require('os').homedir();
 const path = require('path');
 const UnencryptedFileSystemKeyStore = keyStores.UnencryptedFileSystemKeyStore;
 
-const CREDENTIALS_DIR = '.config/.pex-credentials';
+const CREDENTIALS_DIR = '.config/.nb-credentials';
 
 module.exports = async function createKeyStore() {
     // TODO: use system keystores.
