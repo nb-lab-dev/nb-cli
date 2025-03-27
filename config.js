@@ -1,7 +1,7 @@
-const DEFAULT_NETWORK = process.env.PEX_NETWORK || process.env.PEX_ENV || 'mainnet';
+const DEFAULT_NETWORK = process.env.NB_NETWORK || process.env.NB_ENV || 'mainnet';
 
-if (process.env.PEX_NETWORK && process.env.PEX_ENV){
-    console.log(`Warning: PEX_NETWORK and PEX_ENV are both set! We will use PEX_NETWORK (${process.env.PEX_NETWORK})\n`);
+if (process.env.NB_NETWORK && process.env.NB_ENV){
+    console.log(`Warning: NB_NETWORK and NB_ENV are both set! We will use NB_NETWORK (${process.env.NB_NETWORK})\n`);
 }
 
 function getConfig(env) {
@@ -11,29 +11,29 @@ function getConfig(env) {
     case 'mainnet':
         config = {
             networkId: 'mainnet',
-            nodeUrl: process.env.PEX_MAINNET_RPC || 'https://www.pext.cc:5080',
-            walletUrl: process.env.PEX_MAINNET_WALLET || 'https://www.pexwallet.cc',
-            helperUrl: 'https://www.pext.cc:3050',
-            helperAccount: 'pex',
+            nodeUrl: process.env.NB_MAINNET_RPC || 'https://www.nbblocks.cc:5080',
+            walletUrl: process.env.NB_MAINNET_WALLET || 'https://www.nbwallet.cc',
+            helperUrl: 'https://www.nbblocks.cc:3050',
+            helperAccount: 'nb',
         };
         break;
     case 'development':
     case 'testnet':
         config = {
             networkId: 'testnet',
-            nodeUrl: process.env.PEX_TESTNET_RPC || 'https://rpc.testnet.pex.org',
-            walletUrl: process.env.PEX_TESTNET_WALLET || 'https://testnet.mypexwallet.com',
-            helperUrl: 'https://helper.testnet.pex.org',
+            nodeUrl: process.env.NB_TESTNET_RPC || 'https://rpc.testnet.nb.org',
+            walletUrl: process.env.NB_TESTNET_WALLET || 'https://testnet.mynbwallet.com',
+            helperUrl: 'https://helper.testnet.nb.org',
             helperAccount: 'testnet',
         };
         break;
     case 'custom':
         config = {
             networkId: 'custom',
-            nodeUrl: process.env.PEX_CUSTOM_RPC,
-            walletUrl: process.env.PEX_CUSTOM_WALLET,
-            helperUrl: process.env.PEX_CUSTOM_HELPER,
-            helperAccount: process.env.PEX_CUSTOM_TLA,
+            nodeUrl: process.env.NB_CUSTOM_RPC,
+            walletUrl: process.env.NB_CUSTOM_WALLET,
+            helperUrl: process.env.NB_CUSTOM_HELPER,
+            helperAccount: process.env.NB_CUSTOM_TLA,
         };
         break;
     default:
