@@ -3,7 +3,7 @@ const connect = require('../../utils/connect');
 const inspectResponse = require('../../utils/inspect-response');
 const { assertCredentials } = require('../../utils/credentials');
 const { DEFAULT_NETWORK } = require('../../config');
-const { InMemoryKeyStore } = require('pex-api-js/lib/key_stores');
+const { InMemoryKeyStore } = require('nb-api-js/lib/key_stores');
 const chalk = require('chalk');
 
 module.exports = {
