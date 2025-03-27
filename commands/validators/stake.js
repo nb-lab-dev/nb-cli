@@ -1,5 +1,5 @@
 const qs = require('querystring');
-const { utils } = require('pex-api-js');
+const { utils } = require('nb-api-js');
 
 const connect = require('../../utils/connect');
 const inspectResponse = require('../../utils/inspect-response');
