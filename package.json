@@ -1,5 +1,5 @@
 {
-  "name": "nb-cli",
+  "name": "nbb-cli",
   "version": "5.0.5",
   "description": "Simple CLI for interacting with NB Protocol",
   "engines": {
