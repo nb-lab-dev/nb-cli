@@ -1,6 +1,6 @@
 const chalk = require('chalk');
 const capture = require('../../utils/capture-login-success');
-const { KeyPair } = require('pex-api-js');
+const { KeyPair } = require('nb-api-js');
 const open = require('open');    // open URL in default browser
 const readline = require('readline');
 const URL = require('url').URL;
