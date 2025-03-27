@@ -1,4 +1,4 @@
-const { validators, utils } = require('pex-api-js');
+const { validators, utils } = require('nb-api-js');
 const BN = require('bn.js');
 const AsciiTable = require('ascii-table');
 
