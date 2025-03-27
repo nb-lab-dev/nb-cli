@@ -1,4 +1,4 @@
-const { keyStores } = require('pex-api-js');
+const { keyStores } = require('nb-api-js');
 const homedir = require('os').homedir();
 const path = require('path');
 const UnencryptedFileSystemKeyStore = keyStores.UnencryptedFileSystemKeyStore;
