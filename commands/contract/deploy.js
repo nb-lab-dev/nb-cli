@@ -1,6 +1,6 @@
 const fs = require('fs');
 const chalk = require('chalk');
-const { utils, transactions, DEFAULT_FUNCTION_CALL_GAS } = require('pex-api-js');
+const { utils, transactions, DEFAULT_FUNCTION_CALL_GAS } = require('nb-api-js');
 
 const connect = require('../../utils/connect');
 const { assertCredentials } = require('../../utils/credentials');
